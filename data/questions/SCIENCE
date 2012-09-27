@@ -1,0 +1,22 @@
+{
+	"SCI1": {
+ 		"question": "Sample question.",
+		"answer": "A Choice",
+		"choices": {
+			"choice1": "A Choice", 
+			"choice2": "Another choice", 
+			"choice3": "Yet another one",
+			"choice4": "Last one"
+		}
+	},
+	"SCI2": {
+		"question": "Another sample question.",
+		"answer": "A Choice",
+		"choices": {
+			"choice1": "A Choice", 
+			"choice2": "Another choice", 
+			"choice3": "Yet another one",
+			"choice4": "Last one"
+		}
+	}
+ }
