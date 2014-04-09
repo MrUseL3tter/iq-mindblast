@@ -6,7 +6,6 @@ import com.badlogic.gdx.graphics.GL10;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.noobs2d.tweenengine.utils.DynamicDisplay;
-import com.noobs2d.tweenengine.utils.DynamicSprite;
 
 /**
  * The class that must be created an instance for a platform version (desktop, HTML, or android).
@@ -29,8 +28,6 @@ public class IQMindBlast extends Game {
 	setScreen(new DisclaimerScreen(this));
 	spriteBatch = new SpriteBatch();
 	background = new TextureRegion(Assets.background, 0, 0, 760, 680);
-
-	DynamicDisplay d = new DynamicSprite(background, 0, 0);
     }
 
     /**
